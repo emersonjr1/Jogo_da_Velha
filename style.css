@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    place-items: center;
+}
+
+h1{
+font-size: 3em;
+}
+
+h2{
+font-size: 2em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+#tabuleiro{
+    display: flex;
+    background-color: rgb(95, 94, 94);
+    margin: 40px;
+    flex-wrap: wrap;
+    width: 670px;
+    gap: 5px;
+    padding: 10px;
+
+}
+
+.boxCol {
+    background-color: white;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  div img {
+    margin: 10px;
+    align-items: center;
+    width: auto;
+    height: 170px;
+  }
+
+button {
+    width: 100px;
+    height: 80px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+footer p {
+    padding: 0;
+    margin: 30px;
+}
+
+p img {
+    width: 30px;
+}
+
+@media (max-width: 480px) {
+    #tabuleiro {
+      width:400px; /* Ajusta a largura para 100% da largura da tela */
+      max-width: none; /* Remove a largura máxima */
+    }
+  
+    .boxCol {
+      width: 110px; /* Ajusta a largura para 33.33% da largura da tela */
+      max-width: none; /* Remove a largura máxima */
+      height: 130px; /* Ajusta a altura para ser igual à largura */
+      max-height: none; /* Remove a altura máxima */
+      
+    }
+    div img {
+        margin: 10px;
+        align-items: center;
+        width: auto;
+        height: 95px;
+      }
+  }
+
+
+    

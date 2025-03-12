@@ -1,0 +1,7 @@
+Estrutora js
+
+1 - Jogadores e imagens
+
+2 - Jogadas Vencedoras
+
+3 - funçao de cliques
